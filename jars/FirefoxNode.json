@@ -1,0 +1,23 @@
+{ 
+	"capabilities": 
+		[ 
+			{ 
+				"browserName": "firefox", 
+				"platform": "WINDOWS", 
+				"maxInstances": 1 
+			}
+		], 
+	"configuration": 
+		{ 
+			"nodeTimeout":180, 
+			"port":5002,
+			"hubPort":4444, 
+			"hubHost":"localhost", 
+			"nodePolling":2000, 
+			"registerCycle":10000, 
+			"register":true, 
+			"cleanUpCycle":2000, 
+			"timeout":560000, 
+			"maxSession":1, 
+		} 
+}

@@ -1,0 +1,21 @@
+{ 
+	"capabilities": 
+		[ 
+			{ 
+				"browserName": "internet explorer", 
+				"platform": "WINDOWS", 
+				"maxInstances": 1 
+			}
+		], 
+	"configuration": 
+		{ 
+			"nodeTimeout":120, 
+			"hubPort":5001, 
+			"nodePolling":2000, 
+			"registerCycle":10000, 
+			"register":true, 
+			"cleanUpCycle":2000, 
+			"timeout":30000, 
+			"maxSession":1, 
+		} 
+}

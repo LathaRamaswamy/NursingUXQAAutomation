@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KaplanNursing]">
+  <listeners>
+    <listener class-name="com.selenium.listener.TestListenerAdapter"/>
+  </listeners>
+  <test name="KaplanNursing(failed)">
+    <classes>
+      <class name="com.selenium.test.DriverScript">
+        <methods>
+          <include name="startTesting"/>
+          <include name="start"/>
+          <include name="endScript"/>
+        </methods>
+      </class> <!-- com.selenium.test.DriverScript -->
+    </classes>
+  </test> <!-- KaplanNursing(failed) -->
+</suite> <!-- Failed suite [KaplanNursing] -->

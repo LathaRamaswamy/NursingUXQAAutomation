@@ -1,0 +1,36 @@
+{ 
+	"capabilities": 
+		[ 
+			{ 
+				"browserName": "safari", 
+				"platform": "WINDOWS", 
+				"maxInstances": 1 
+			},
+			{ 
+				"browserName": "firefox", 
+				"platform": "WINDOWS", 
+				"maxInstances": 1 
+			},
+			{ 
+				"browserName": "internet explorer", 
+				"platform": "WINDOWS", 
+				"maxInstances": 1 
+			},
+			{ 
+				"browserName": "chrome", 
+				"platform": "WINDOWS", 
+				"maxInstances": 1 
+			}
+		], 
+	"configuration": 
+		{ 
+			"nodeTimeout":180, 
+			"port":5009, 
+			"nodePolling":2000, 
+			"registerCycle":10000, 
+			"register":true, 
+			"cleanUpCycle":2000, 
+			"timeout":200000, 
+			"maxSession":4, 
+		} 
+}
